@@ -32,10 +32,7 @@ namespace Todo.Objects
     {
       return _instances;
     }
-    // public void Save()
-    // {
-    //   _instances.Add(_description);
-    // }
+
     public static void ClearAll()
     {
       _instances.Clear();
